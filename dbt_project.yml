@@ -1,0 +1,9 @@
+name: Snowflake_test
+version: 1.0
+config-version: 2
+
+profile: my_sql
+
+models:
+ Snowflake_test:
+    +materialized: table
